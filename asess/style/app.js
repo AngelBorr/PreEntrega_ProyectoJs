@@ -237,7 +237,7 @@ function guardarUsuario() {
         gravity: "top", // `top` or `bottom`
         position: "center", // `left`, `center` or `right`
         stopOnFocus: true, // Prevents dismissing of toast on hover
-        destination: (window.Location= "index.html"),
+        destination: (window.Location= "https://angelborr.github.io/PreEntrega_ProyectoJs/"),
         newWindow: true,
         close: true,
         stopOnFocus: true,
@@ -261,6 +261,13 @@ const btnCrearUsuario = document.getElementById("btnCrearUsuario");
 btnCrearUsuario.addEventListener("click", function () {
     guardarUsuario();
 
-    /**/
 });
+
+const btnIniciarSesion = document.getElementById("btnIniciarSesion")
+
+btnIniciarSesion.addEventListener("click", function IniciarSesion (){
+    const arrayListadoDeUsuarios = listaDeUsuariosLS
+})
+
+
 
