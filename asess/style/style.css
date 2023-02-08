@@ -32,3 +32,48 @@ body{
     padding-right: 25%;
 
 }
+
+/* TARJETAS */
+
+.cardProduct {
+    width: 300px;
+    border-color: rgb(168, 165, 165);
+    border-style: solid;
+    border-width: 3px;
+    margin: 5px;
+}
+
+.cardProduct__image {
+    width: 100%;
+}
+
+.cardProduct__description {
+    padding: 10px;
+}
+
+.cardProduct__description__price {
+    margin-top: 10px;
+}
+
+.cardProduct__description__text {
+    margin-top: 15px;
+    margin-bottom: 20px;
+    text-align: justify;
+    line-height: 25px;
+}
+
+.cardProduct__description__action {
+    background-color: rgb(80, 135, 238);
+    display: inline-block;
+    width: 40%;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    border-radius: 50px;
+}
+
+.borderRounded {
+    border-radius: 10px;
+}
